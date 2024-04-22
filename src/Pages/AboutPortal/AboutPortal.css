@@ -1,0 +1,45 @@
+.right {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.para {
+  flex: 1; 
+  max-width: 700px; 
+  margin-right: 20px; 
+}
+
+.para p {
+  font-family: 'Arial', sans-serif; 
+  font-size: 1.2rem;
+  line-height: 2; 
+  text-align: justify; 
+  margin-bottom: 10px; 
+}
+
+.right img {
+  flex-shrink: 0;
+  max-width: 50%; 
+  height: auto;
+  border-radius: 8px; 
+}
+
+
+@media (max-width: 768px) {
+  .right {
+    flex-direction: column; 
+  }
+  
+  .para {
+    max-width: 100%;
+    margin-right: 0; 
+  
+  .right img {
+    max-width: 80%;
+    margin-top: 20px; 
+  }
+}
+}

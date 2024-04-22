@@ -1,0 +1,32 @@
+.site-footer {
+    background-color: #0066cc;
+    color: #d2ec0f;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  .footer-text {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  

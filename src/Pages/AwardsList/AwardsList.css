@@ -1,0 +1,42 @@
+
+  .awards-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .award-card {
+    width: calc(25% - 20px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  
+  .details-link {
+    text-decoration: none;
+    color: #0066cc;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 1024px) {
+    .award-card {
+      width: calc(33.333% - 20px); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .award-card {
+      width: calc(50% - 20px); 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .award-card {
+      width: 100%; 
+    }
+  }
+  
